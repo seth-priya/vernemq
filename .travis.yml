@@ -16,7 +16,7 @@ before_install:
   - psql -c "GRANT ALL PRIVILEGES ON DATABASE vmq_test_database to vmq_test_user;" -U postgres
 
 sudo: required
-dist: trusty
+dist: xenial
 arch:
   - amd64
   - ppc64le
