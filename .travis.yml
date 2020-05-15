@@ -17,6 +17,9 @@ before_install:
 
 sudo: required
 dist: trusty
+arch:
+  - amd64
+  - ppc64le
 language: erlang
 install: true
 otp_release:
